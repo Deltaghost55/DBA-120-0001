@@ -1,0 +1,18 @@
+DROP TABLE LiteraryAgents CASCADE CONSTRAINTS;
+
+CREATE TABLE LiteraryAgents(
+AGENT# NUMBER(4),
+LASTNAME VARCHAR2(10),
+FIRSTNAME VARCHAR2(10),
+Address VARCHAR2(20),
+City VARCHAR2(12),
+State VARCHAR2(2),
+Zip VARCHAR2(5),
+Region CHAR(2),
+Email VARCHAR2(30)
+);
+
+INSERT INTO LiteraryAgents
+VALUES (1001, 'BEHARRY', 'MATHIAS', '7246 RYAN STREET', 'FAYETTEVILLE', 'NC', '28314','E', 'mathiasbeharry@hotmail.com');
+INSERT INTO LiteraryAgents
+VALUES (1002, 'DOO', 'SCOOBY', '6515 BISCUIT ROAD', 'MONSTERVILLE', 'TX', '65016','S', 'scoobydoobydoo@gmail.com');

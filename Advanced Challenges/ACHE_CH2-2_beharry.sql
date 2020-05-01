@@ -1,0 +1,3 @@
+SELECT TITLE, (RETAIL - COST) / COST * 100 AS "Profit %"
+FROM BOOKS
+;
